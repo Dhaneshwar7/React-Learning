@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { animate, motion } from 'framer-motion';
 import './App.css';
 
-function App() {
+function Motion() {
 	const [count, setCount] = useState(0);
 
 	return (
@@ -22,4 +22,4 @@ function App() {
 	);
 }
 
-export default App;
+export default Motion;
