@@ -24,16 +24,19 @@ const anotherElement = (
 		Seach karo
 	</a>
 )
+
+const username = "jojo mike"
 const reactElement = React.createElement(
   'a',
   {href:'www.facebook.com',target:"_blank"},
-  "ha new click fb"  
+  "ha new click fb"  ,
+  username
 )
 ReactDOM.createRoot(document.getElementById('root')).render(
   /* anotherElement */  
-  reactElement
+  // reactElement
 	// <React.StrictMode>
-	// 	<App />
+		<App />
 	// 	{/*  createElement   */}
   //   anotherElement
 	// 	{/* <MyText /> */}
