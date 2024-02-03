@@ -23,22 +23,22 @@ const anotherElement = (
 	<a href="www.google.com" target="_blank">
 		Seach karo
 	</a>
-)
+);
 
-const username = "jojo mike"
+const username = 'jojo mike';
 const reactElement = React.createElement(
-  'a',
-  {href:'www.facebook.com',target:"_blank"},
-  "ha new click fb"  ,
-  username
-)
+	'a',
+	{ href: 'www.facebook.com', target: '_blank' },
+	'ha new click fb',
+	username
+);
 ReactDOM.createRoot(document.getElementById('root')).render(
-  /* anotherElement */  
-  // reactElement
-	// <React.StrictMode>
+	/* anotherElement */
+	// reactElement
+	<React.StrictMode>
 		<App />
-	// 	{/*  createElement   */}
-  //   anotherElement
-	// 	{/* <MyText /> */}
-	// </React.StrictMode>
+		{/*  createElement   */}
+		{/*  anotherElement */}
+		{/* <MyText /> */}
+	</React.StrictMode>
 );
